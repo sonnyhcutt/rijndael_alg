@@ -179,3 +179,12 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# macOS
+.DS_Store
+
+# Runtime trace output from rounds.py (verbose mode)
+aes_steps.txt
+
+# Editors / IDEs
+.vscode/
+.idea/
